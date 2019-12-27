@@ -1,0 +1,24 @@
+body {
+    margin: 1em;
+}
+
+p, ul, #btn-group-1>button.btn.btn-light, #btn-group-2>button.btn.btn-light, label, button, a {
+    font-size: 18px;
+}
+
+ul.nav.justify-content-center {
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+#projects>div>div:nth-child(2)>div>div.col-xl-3 {}
+
+#footer>div>div.col-sm-5.links ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+#footer>div>div.col-sm-2>a {
+    padding-left: 8em;
+}
