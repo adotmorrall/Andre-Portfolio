@@ -76,30 +76,30 @@
 <!-- Projects -->
 <div id="projects">
     <div class="jumbotron">
-        <h1 class="display-5 text-center font-weight-light">Projects</h1>
+        <h1 class="display-5 text-center font-weight-light" id="h1-project">Projects</h1>
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
-            <div class="row">
-                <div class="col-xl-3">
-                    <img src="./assets/images/train.jpg" width="250" height="150" alt="project-1">
-                    <h4 class="display-5 font-weight-light">Train Scheduler</h4>
-                    <a href="https://github.com/adotmorrall/Train-Scheduler.git" target="_blank"
-                        class="project-links">View
-                        Code</a> | <a href="https://adotmorrall.github.io/Train-Scheduler/" target="_blank"
-                        class="project-links">View
-                        Project</a>
+            <div class="row" id="row-bamazon">
+                <div class="col-xl-3" id="col-bamazon">
+                    <img src="./assets/images/storefront.jpg" width="250" height="150" alt="project-1">
+                    <h4 class="display-5 font-weight-light">Bamazon</h4>
+                    <a href="https://github.com/adotmorrall/Bamazon.git" target="_blank" class="project-links">View
+                        Code</a> | <a href="https://github.com/adotmorrall/Bamazon/blob/master/README.md"
+                        target="_blank" class="project-links">View
+                        Instructions</a>
                 </div>
-                <div class="col-xl-9">
-                    <p>Train Scheduler incorporates Firebase to host
-                        arrival and departure data. It retrieves and manipulates this information with Moment.js. Also,
-                        this website provides up-to-date information about various trains, namely their arrival
-                        times and how many minutes remain until they arrive at their station.
+                <div class="col-xl-9" id="para-bamazon">
+                    <p>Bamazon is a storefront command-line node application. It takes in orders from customers and
+                        depletes stock from Bamazon's inventory. To retrieve the data that powers this application, it
+                        uses MySQL, Inquirer, and CLI-Table NPM packages, and the <a
+                            href="https://dev.mysql.com/downloads/mysql/" target="_blank">MySQL Community Server
+                            software.</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
-            <div class="row">
-                <div class="col-xl-3">
+            <div class="row" id="row-liri">
+                <div class="col-xl-3" id="col-liri">
                     <img src="./assets/images/liri.jpg" width="250" height="150" alt="project-2">
                     <h4 class="display-5 font-weight-light">LIRI</h4>
                     <a href="https://github.com/adotmorrall/LIRI-Node-App.git" target="_blank"
@@ -108,9 +108,10 @@
                         class="project-links">View
                         Instructions</a>
                 </div>
-                <div class="col-xl-9">
-                    <p>LIRI (<i>Language Interpretation and Recognition Interface</i>) is a command
-                        line node application. It's used to search for bands and artists, songs, and movies. To retrieve
+                <div class="col-xl-9" id="para-liri">
+                    <p>LIRI (<i>Language Interpretation and Recognition Interface</i>) is a command-line node
+                        application. It's used to search for bands and artists, songs, and movies. To
+                        retrieve
                         the data that powers this application, it uses Axios, Moment, and DotEnv NPM packages, and the
                         Node-Spotify, OMDB, and Bands In Town APIs.
                     </p>
@@ -118,8 +119,35 @@
             </div>
         </div>
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
-            <div class="row">
-                <div class="col-xl-3">
+            <div class="row" id="row-train">
+                <div class="col-xl-3" id="col-train">
+                    <img src="./assets/images/train.jpg" width="250" height="150" alt="project-1">
+                    <h4 class="display-5 font-weight-light">Train Scheduler</h4>
+                    <a href="https://github.com/adotmorrall/Train-Scheduler.git" target="_blank"
+                        class="project-links">View
+                        Code</a> | <a href="https://adotmorrall.github.io/Train-Scheduler/" target="_blank"
+                        class="project-links">View
+                        Project</a>
+                </div>
+                <div class="col-xl-9" id="para-train">
+                    <p>Train Scheduler incorporates Firebase to host
+                        arrival and departure data. It retrieves and manipulates this information with Moment.js. Also,
+                        this website provides up-to-date information about various trains, namely their arrival
+                        times and how many minutes remain until they arrive at their station.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End of jumbotron -->
+
+</div> <!-- end of project-->
+
+<div id="team-project">
+    <div class="jumbotron">
+        <h1 class="display-5 text-center font-weight-light" id="h1-team-project">Team Projects</h1>
+        <div class="shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="row" id="row-weatherfy">
+                <div class="col-xl-3" id="col-weatherfy">
                     <img src="./assets/images/weatherfy.jpg" width="250" height="150" alt="project-1">
                     <h4 class="display-5 font-weight-light">Weatherfy</h4>
                     <a href="https://github.com/adotmorrall/Project-1.git" target="_blank" class="project-links">View
@@ -127,7 +155,7 @@
                         class="project-links">View
                         Project</a>
                 </div>
-                <div class="col-xl-9">
+                <div class="col-xl-9" id="para-weatherfy">
                     <p>Spotify user, eh? Improve your playlist customization by using Weatherfy.
                         <br>
                         <p>Our concept for this
@@ -140,48 +168,46 @@
                                 <ul>
                                     <li>Research weather APIs (<i>selected OpenWeather API</i>)</li>
                                     <li>Call current weather conditions by US Zip Code</li>
-                                    <li>Use API return parameters to generate the Spotify playlist based on weather</li>
-                                    <li>Partner with <i>front-end</i> team members to load the current weather data to
+                                    <li>Use API return parameters to generate the Spotify playlist based on weather
+                                    </li>
+                                    <li>Partner with <i>front-end</i> team members to load the current weather data
+                                        to
                                         the
                                         application</li>
                                     <li>Research Spotify API <a
                                             href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/"
-                                            target="_blank">audio features</a> to decide the paramaters for different
+                                            target="_blank">audio features</a> to decide the paramaters for
+                                        different
                                         types
                                         of weather conditions</li>
-
                                 </ul>
-
                             </p>
                 </div>
             </div>
         </div>
-
     </div>
-</div>
+</div> <!-- End of team projects -->
 
 <!-- Skills -->
 <div id="skills">
     <div class="container">
+        <h1 class="display-5 text-center font-weight-light" id="h1-skills">Skills</h1>
         <div class="row">
-            <div class="col-xl-3">
-                <h1 class="display-5 font-weight-light">Skills</h1>
-            </div>
-            <div class="col-xl-9">
+            <div class="col-xl-12 text-center">
                 <div id="btn-group-1">
                     <button type="button" class="btn btn-light">HTML</button>
                     <button type="button" class="btn btn-light">CSS</button>
                     <button type="button" class="btn btn-light">JavaScript</button>
                     <button type="button" class="btn btn-light">jQuery</button>
                     <button type="button" class="btn btn-light">Bootstrap</button>
-                </div>
-                <div id="btn-group-2">
                     <button type="button" class="btn btn-light">Node.js</button>
                     <button type="button" class="btn btn-light">NPM</button>
                     <button type="button" class="btn btn-light">MySQL</button>
                     <button type="button" class="btn btn-light">Git</button>
                     <button type="button" class="btn btn-light">Heroku</button>
                 </div>
+
+
             </div>
         </div>
     </div>
