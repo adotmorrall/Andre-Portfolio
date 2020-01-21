@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive</title> <!-- Change name before deploying to GitHub-->
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+    <div id="navi">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#h1-about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#h1-project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#h1-skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#h1-contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </div> <!-- Endf of navbar -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1 class="display-3" id="logo-name">ANDRE'<br>MORRALL</h1>
+            <hr class="my-3">
+            <br>
+            <h2 id="logo-title">Full-Stack Web Developer</h2>
+            <p><a class="btn btn-primary btn-lg" href="./assets/resume.pdf" target="_blank" role="button"
+                    id="resume-btn">Resume</a></p>
+            <div id="lead-overlay"></div>
+        </div>
+    </div>
+
+    <h1 class="display-5 text-center font-weight-light" id="h1-about-me">About Me</h1>
+    <div class="jumbotron" id="about-me">
+        <div class="row">
+            <div class="col-xl-3" id="col-about-me">
+                <img src="./assets/images/profile.jpg" width="250" height="250" alt="Portfolio" id="bio-image">
+                <!-- <ul class="nav justify-content-left" style="list-style-type: none;">
+                    <li>
+                        <a href="https://github.com/adotmorrall" target="_blank"><i class="fa fa-github"
+                                style="font-size:36px"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/andremorrall" target="_blank"><i
+                                class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                    </li>
+                </ul> -->
+            </div>
+            <div class="col-xl-9">
+                <h4 class="display-5 font-weight-light text-auto">Hi, I'm Andre' Morrall.</h3>
+                    <p>Nearly six years ago, I worked in a call center for a telecommunications company, and we had no
+                        formal
+                        workflow
+                        for troubleshooting the products. One day, I decided to develop an internal how-to webpage for
+                        our
+                        team. It was nothing fancy; I hyperlinked a couple of Word documents that included the
+                        troubleshooting steps, converted them into HTML format, and saved them in a shared network
+                        location.
+                    </p>
+                    <p>I'd have to say that was one of the most satisfying accomplishments as an IT professional. Fast
+                        forward to now, I'm currently studying part-time at SMU to become a Full Stack Web Developer!
+                    </p>
+                    <p>I moved to Dallas three years ago, and it's been a fantastic experience! I love its food,
+                        especially
+                        street tacos. When I'm not exploring Dallas and its local eateries, I'm working out, reading or
+                        coding.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Projects -->
+    <h1 class="display-5 text-center font-weight-light" id="h1-project">Projects</h1>
+    <div id="projects">
+        <div class="jumbotron">
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="row" id="row-bamazon">
+                    <div class="col-xl-3" id="col-bamazon">
+                        <img src="./assets/images/storefront.jpg" width="250" height="150" alt="project-1">
+                        <h4 class="display-5 font-weight-light">Bamazon</h4>
+                        <a href="https://github.com/adotmorrall/Bamazon.git" target="_blank" class="project-links">View
+                            Code</a> | <a href="https://github.com/adotmorrall/Bamazon/blob/master/README.md"
+                            target="_blank" class="project-links">View
+                            Instructions</a>
+                    </div>
+                    <div class="col-xl-9" id="para-bamazon">
+                        <p>Bamazon is a storefront command-line node application. It takes in orders from customers and
+                            depletes stock from Bamazon's inventory. To retrieve the data that powers this application,
+                            it
+                            uses MySQL, Inquirer, and CLI-Table NPM packages, and the <a
+                                href="https://dev.mysql.com/downloads/mysql/" target="_blank">MySQL Community Server
+                                software.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="row" id="row-liri">
+                    <div class="col-xl-3" id="col-liri">
+                        <img src="./assets/images/liri.jpg" width="250" height="150" alt="project-2">
+                        <h4 class="display-5 font-weight-light">LIRI</h4>
+                        <a href="https://github.com/adotmorrall/LIRI-Node-App.git" target="_blank"
+                            class="project-links">View Code</a> | <a
+                            href="https://github.com/adotmorrall/LIRI-Node-App/blob/master/README.md" target="_blank"
+                            class="project-links">View
+                            Instructions</a>
+                    </div>
+                    <div class="col-xl-9" id="para-liri">
+                        <p>LIRI (<i>Language Interpretation and Recognition Interface</i>) is a command-line node
+                            application. It's used to search for bands and artists, songs, and movies. To
+                            retrieve
+                            the data that powers this application, it uses Axios, Moment, and DotEnv NPM packages, and
+                            the
+                            Node-Spotify, OMDB, and Bands In Town APIs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="row" id="row-train">
+                    <div class="col-xl-3" id="col-train">
+                        <img src="./assets/images/train.jpg" width="250" height="150" alt="project-3">
+                        <h4 class="display-5 font-weight-light">Train Scheduler</h4>
+                        <a href="https://github.com/adotmorrall/Train-Scheduler.git" target="_blank"
+                            class="project-links">View
+                            Code</a> | <a href="https://adotmorrall.github.io/Train-Scheduler/" target="_blank"
+                            class="project-links">View
+                            Project</a>
+                    </div>
+                    <div class="col-xl-9" id="para-train">
+                        <p>Train Scheduler incorporates Firebase to host
+                            arrival and departure data. It retrieves and manipulates this information with Moment.js.
+                            Also,
+                            this website provides up-to-date information about various trains, namely their arrival
+                            times and how many minutes remain until they arrive at their station.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End of jumbotron -->
+    </div> <!-- end of project-->
+
+    <!-- Team Projects-->
+    <h1 class="display-5 text-center font-weight-light" id="h1-team-project">Team Projects</h1>
+    <div id="team-project">
+        <div class="jumbotron">
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="row" id="row-trouver">
+                    <div class="col-xl-3" id="col-trouver">
+                        <img src="./assets/images/trouver.jpg" width="250" height="150" alt="team-project-2">
+                        <h4 class="display-5 font-weight-light">Trouver</h4>
+                        <a href="https://github.com/adotmorrall/Project-2.git" target="_blank"
+                            class="project-links">View
+                            Code</a> | <a href="https://obscure-depths-57461.herokuapp.com/" target="_blank"
+                            class="project-links">View
+                            Project</a>
+                    </div>
+                    <div class="col-xl-9" id="para-trouver">
+                        <p>Trouver is your one-stop-spot to search for your favorite movies and TV shows!
+                            <br>
+                            <p>Our concept for this project was to create an application that takes in a user's movie or
+                                TV
+                                show query, and it returns all streaming services, which is available on a single page.
+                                Farewell to the days of juggling between various services to find the content you wish
+                                to
+                                view.
+                                <br>
+                                <p><strong>Project Contribution:</strong>
+                                    <ul>
+                                        <li>Research movie and television database APIs (<i>selected Utelly and Box
+                                                Office
+                                                Buz APIs</i>)</li>
+                                        <li>Use API return parameters to generate the list of platforms for TV show and
+                                            movie queries
+                                        </li>
+                                        <li>Partner with <i>front-end</i> team members to load the search results
+                                            to
+                                            the
+                                            application</li>
+                                    </ul>
+                                </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End of team projects -->
+
+    <!-- Skills -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="display-5 text-center font-weight-light" id="h1-skills">Skills</h1>
+            <div class="row">
+                <div class="col-xl-12 text-center">
+                    <div id="btn-group-1">
+                        <button type="button" class="btn btn-light">HTML</button>
+                        <button type="button" class="btn btn-light">CSS</button>
+                        <button type="button" class="btn btn-light">JavaScript</button>
+                        <button type="button" class="btn btn-light">jQuery</button>
+                        <button type="button" class="btn btn-light">Bootstrap</button>
+                        <button type="button" class="btn btn-light">Node.js</button>
+                        <button type="button" class="btn btn-light">NPM</button>
+                        <button type="button" class="btn btn-light">MySQL</button>
+                        <button type="button" class="btn btn-light">Git</button>
+                        <button type="button" class="btn btn-light">Heroku</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div id="contact-me">
+        <div class="jumbotron" style="margin-bottom:0">
+            <h1 class="display-5 text-center font-weight-light">Contact Me</h1>
+            <form>
+                <div class="form-group">
+                    <label for="input-email">Email address</label>
+                    <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp"
+                        placeholder="Your email address">
+                </div>
+                <div class="form-group">
+                    <label for="input-text">Message</label>
+                    <textarea class="form-control" id="input-text" rows="3" placeholder="Your message"></textarea>
+                </div>
+            </form>
+            <div class="text-center">
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a href="#navi"><i class="fa fa-angle-double-up" style="font-size:36px"></i></a>
+            <p>Copyright &copy 2019 Andre' Morrall | All Rights Reserved</p>
+        </nav>
+    </div> <!-- Endf of footer -->
+
+    </div>
+    
+</body>
+</html>
