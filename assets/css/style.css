@@ -1,14 +1,102 @@
 body {
     margin: 1em;
+    font-family: 'Lato', sans-serif;
+    /* background: #343a40; */
+    background: whitesmoke;
+    margin-right: 6em;
+    margin-left: 6em;
 }
 
 p, ul, #btn-group-1>button.btn.btn-light, #btn-group-2>button.btn.btn-light, label, button, a {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 ul.nav.justify-content-center {
     margin-bottom: 1em;
     font-size: 20px;
+    margin: auto;
+}
+
+#h1-about-me, #h1-project, #h1-team-project, #h1-skills, #h1-contact {
+    color: #343a40;
+}
+
+#navi>nav>ul>li>a {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+#footer>nav {
+    flex-flow: column;
+}
+
+#footer>nav>p {
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#footer>nav>a>i {
+    color: orange;
+}
+
+#navi>nav>ul>li>a:hover {
+    color: orange;
+}
+
+#lead {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 800px;
+    background: url(/assets/images/background.jpg);
+    padding: 15px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+h1#logo-name {
+    font-size: 5em;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+p#logo-title {
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#lead-logo {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#resume-btn {
+    background-color: black;
+    border-color: black;
+}
+
+#resume-btn:hover {
+    color: orange;
+}
+
+#bio-image {
+    margin-bottom: 3px;
+}
+
+#col-about-me>ul>li>a {
+    color: black;
+    padding-right: 4px;
 }
 
 /* Project Headings */
@@ -34,7 +122,7 @@ ul.nav.justify-content-center {
     padding-right: 2em;
 }
 
-#para-weatherfy {
+#para-weatherfy, #para-trouver {
     margin-top: 3em;
     padding-right: 2em;
 }
@@ -46,7 +134,7 @@ ul.nav.justify-content-center {
     padding-top: 1em;
 }
 
-#col-weatherfy {
+#col-weatherfy, #col-trouver {
     padding-left: 4em;
     padding-top: 5em;
 }
@@ -58,11 +146,17 @@ ul.nav.justify-content-center {
     padding-top: 1em;
 }
 
-#row-weatherfy {
+#row-weatherfy, #row-trouver {
     padding-bottom: 1em;
     padding-top: 0em;
 }
 
 #btn-group-1 {
     padding-bottom: 2em;
+}
+
+#btn-group-1>button:hover {
+    color: white;
+    background: grey;
+    border-color: grey;
 }
