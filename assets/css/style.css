@@ -3,8 +3,7 @@ body {
     font-family: 'Lato', sans-serif;
     /* background: #343a40; */
     background: whitesmoke;
-    margin-right: 6em;
-    margin-left: 6em;
+ margin: 0;
 }
 
 p, ul, #btn-group-1>button.btn.btn-light, #btn-group-2>button.btn.btn-light, label, button, a {
