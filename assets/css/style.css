@@ -48,7 +48,7 @@ ul.nav.justify-content-center {
     height: 100vh;
     min-height: 500px;
     max-height: 800px;
-    background: url(./assets/images/background.jpg);
+    background: url(../images/background.jpg);
     padding: 15px;
     overflow: hidden;
     background-size: cover;
