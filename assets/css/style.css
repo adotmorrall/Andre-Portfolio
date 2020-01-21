@@ -17,7 +17,7 @@ ul.nav.justify-content-center {
     margin: auto;
 }
 
-#h1-about-me, #h1-project, #h1-team-project, #h1-skills, #h1-contact {
+#h1-about-me, #h1-project, #h1-team-project, #h1-skills, #h1-contactcd {
     color: #343a40;
 }
 
@@ -48,7 +48,7 @@ ul.nav.justify-content-center {
     height: 100vh;
     min-height: 500px;
     max-height: 800px;
-    background: url(/assets/images/background.jpg);
+    background: url(./assets/images/background.jpg);
     padding: 15px;
     overflow: hidden;
     background-size: cover;
