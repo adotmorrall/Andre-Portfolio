@@ -331,7 +331,7 @@ p#logo-title {
     }
     .navbar-nav {
         flex-direction: row;
-        padding-left: 10.5em;
+        padding-left: 9em;
     }
     h1#logo-name {
         font-size: 4em;
