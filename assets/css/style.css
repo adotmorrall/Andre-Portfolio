@@ -1,0 +1,198 @@
+body {
+    margin: 1em;
+    font-family: 'Lato', sans-serif;
+    /* background: #343a40; */
+    background: whitesmoke;
+    margin-right: 6em;
+    margin-left: 6em;
+}
+
+p, ul, #btn-group-1>button.btn.btn-light, #btn-group-2>button.btn.btn-light, label, button, a {
+    font-size: 16px;
+}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
+    margin-bottom: 1em;
+    font-size: 20px;
+    margin: auto;
+}
+
+#h1-about-me, #h1-project, #h1-team-project, #h1-skills, #h1-contactcd {
+    color: #343a40;
+}
+
+#naviToggle>ul>li>a {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+#footer>nav {
+    flex-flow: column;
+}
+
+#footer>nav>p {
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#footer>nav>a>i {
+    color: orange;
+}
+
+#naviToggle>ul>li>a:hover {
+    color: orange;
+}
+
+#lead {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 800px;
+    background: url(../images/background.jpg);
+    padding: 15px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+h1#logo-name {
+    font-size: 5em;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+p#logo-title {
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#lead-logo {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#resume-btn {
+    background-color: black;
+    border-color: black;
+}
+
+#resume-btn:hover {
+    color: orange;
+}
+
+#bio-image {
+    margin-bottom: 3px;
+}
+
+#col-about-me>ul>li>a {
+    color: black;
+    padding-right: 4px;
+}
+
+/* Project Headings */
+
+#h1-project, #h1-team-project {
+    margin-bottom: .5em;
+}
+
+#footer>div>div.col-sm-5.links ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+#footer>div>div.col-sm-2>a {
+    padding-left: 8em;
+}
+
+/* Paragraph Styles */
+
+#para-bamazon, #para-train, #para-liri {
+    margin-top: 4em;
+    padding-right: 2em;
+}
+
+#para-weatherfy, #para-trouver {
+    margin-top: 3em;
+    padding-right: 2em;
+}
+
+/* Column styles */
+
+#col-bamazon, #col-train, #col-liri, #col-about-me {
+    padding-left: 3em;
+    padding-top: 1em;
+}
+
+#col-weatherfy, #col-trouver {
+    padding-left: 4em;
+    padding-top: 5em;
+}
+
+/* Row Styles */
+
+#row-bamazon, #row-train, #row-liri {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+#row-weatherfy, #row-trouver {
+    padding-bottom: 1em;
+    padding-top: 0em;
+}
+
+#btn-group-1 {
+    padding-bottom: 2em;
+}
+
+#btn-group-1>button:hover {
+    color: white;
+    background: grey;
+    border-color: grey;
+}
+
+#naviToggle.collapse:not(show) {
+    display: block;
+}
+
+/* Small devices, 567 px and up */
+
+@media (min-width: 576px) {
+    #naviToggle>ul>li>a {
+        color: whitesmoke;
+        font-size: 14px;
+        padding-right: 8px;
+        text-decoration: underline;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        padding-left: 4em;
+    }
+    h1#logo-name {
+        font-size: 4em;
+        padding-top: .25em;
+    }
+    h2#logo-title {
+        font-size: 1.5em;
+        margin-top: -5px;
+        color: whitesmoke;
+    }
+    #resume-btn {
+        color: whitesmoke;
+        background-color: rgb(96, 125, 155);
+        border-color: rgb(96, 125, 155);
+    }
+    #lead {
+        height: 0;
+    }
+}
