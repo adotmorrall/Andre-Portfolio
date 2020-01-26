@@ -316,7 +316,7 @@ p#logo-title {
 
 /* Medium devices (tablets) */
 
-@media (min-width: 375px) and (max-width: 769px) {
+@media (min-width: 375px) and (max-width: 768px) {
     body {
         display: grid;
         margin: 0;
@@ -467,6 +467,4 @@ p#logo-title {
     #footer>nav>p {
         font-size: 14px;
     }
-}
-
 }
