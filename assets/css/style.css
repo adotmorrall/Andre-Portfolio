@@ -314,7 +314,7 @@ p#logo-title {
     }
 }
 
-/* Medium devices (tablets) */
+/* Medium devices - Portrait (tablets) */
 
 @media (min-width: 375px) and (max-width: 768px) {
     body {
@@ -466,5 +466,163 @@ p#logo-title {
     /* Footer style */
     #footer>nav>p {
         font-size: 14px;
+    }
+}
+
+/* Medium devices - Landscape (tablets) */
+
+@media (max-width: 1024px) {
+    body {
+        display: grid;
+        margin: 0;
+    }
+    /* Navbar Styles */
+    #naviToggle>ul>li>a {
+        color: whitesmoke;
+        font-size: 18px;
+        padding-right: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: 5px;
+        border: 2px solid whitesmoke;
+        border-radius: 25px;
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        padding-left: 2.5em;
+    }
+    /* Lead Styles */
+    h1#logo-name {
+        font-size: 4em;
+        padding-top: .75em;
+    }
+    h2#logo-title {
+        font-size: 1.5em;
+        margin-top: -5px;
+        padding-bottom: 3px;
+        color: black;
+    }
+    #resume-btn {
+        color: whitesmoke;
+        background-color: black border-color: black
+    }
+    #lead {
+        height: 0;
+        margin-bottom: 0;
+    }
+    /* About Me Styles */
+    #h1-about-me {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    #bio-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about-me {
+        padding: 1rem 1rem;
+        margin-bottom: 0;
+    }
+    #about-me>div>div.col-xl-9>h4 {
+        font-size: 20px;
+    }
+    #about-me>div>div.col-xl-9 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about-me>div>div.col-xl-9>p {
+        font-size: 16px;
+    }
+    #col-about-me {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #about-me>div>div.col-xl-9>h4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+    #about-me>div>div.col-xl-9>p:nth-child(4) {
+        margin-bottom: 0;
+    }
+    /* Project Styles */
+    #projects>div {
+        padding: 1rem 1rem;
+        margin-bottom: 0;
+    }
+    #projects>div>div {
+        margin-bottom: 1rem!important;
+    }
+    #h1-project {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    #row-bamazon, #row-liri, #row-train {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    #col-bamazon>h4, #col-liri>h4, #col-train>h4 {
+        font-size: 20px;
+        padding-top: 5px;
+        margin-bottom: 2.5px;
+    }
+    #para-bamazon, #para-liri, #para-train {
+        margin-top: 5px;
+        padding-left: 3em;
+    }
+    /* Team Project Styles */
+    #team-project>div>div {
+        margin-bottom: 0rem!important;
+    }
+    #h1-team-project {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    #col-trouver, #col-weatherfy {
+        padding-left: 3em;
+        padding-top: 1em;
+    }
+    #col-trouver>h4, #col-weatherfy>h4 {
+        font-size: 20px;
+        padding-top: 5px;
+        margin-bottom: 2.5px;
+    }
+    #para-trouver, #para-weatherfy {
+        margin-top: 5px;
+        padding-left: 3em;
+    }
+    #para-trouver>ul, #para-weatherfy>ul {
+        padding-left: 1em;
+    }
+    #team-project>div.jumbotron>div:nth-child(1) {
+        margin-bottom: 1rem!important;
+    }
+    /* Skills styles */
+    #h1-skills {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    #btn-group-1>button {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    /* Contact Me */
+    #contact-me>div {
+        padding: 1rem 1rem;
+    }
+    #contact-me>div>h1 {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    #contact-me>div>form>div>label, #contact-me>div>div>button {
+        font-size: 20px;
+    }
+    /* Footer style */
+    #footer>nav>p {
+        font-size: 18px;
     }
 }
