@@ -1,10 +1,7 @@
 body {
-    margin: 1em;
     font-family: 'Lato', sans-serif;
     /* background: #343a40; */
     background: whitesmoke;
-    margin-right: 6em;
-    margin-left: 6em;
 }
 
 p, ul, #btn-group-1>button.btn.btn-light, #btn-group-2>button.btn.btn-light, label, button, a {
@@ -167,7 +164,7 @@ p#logo-title {
 
 /* Small devices, 567 px and up */
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     #naviToggle>ul>li>a {
         color: whitesmoke;
         font-size: 14px;
@@ -185,6 +182,7 @@ p#logo-title {
     h2#logo-title {
         font-size: 1.5em;
         margin-top: -5px;
+        padding-bottom: 3px;
         color: whitesmoke;
     }
     #resume-btn {
@@ -194,5 +192,6 @@ p#logo-title {
     }
     #lead {
         height: 0;
+        margin-bottom: 0;
     }
 }
