@@ -285,4 +285,31 @@ p#logo-title {
     #para-trouver>ul, #para-weatherfy>ul {
         padding-left: 1em;
     }
+    #team-project>div.jumbotron>div:nth-child(1) {
+        margin-bottom: 1rem!important;
+    }
+    /* Skills styles */
+    #h1-skills {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    #btn-group-1>button {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    /* Contact Me */
+    #contact-me>div {
+        padding: 1rem 1rem;
+    }
+    #contact-me>div>h1 {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    #contact-me>div>form>div>label, #contact-me>div>div>button {
+        font-size: 20px;
+    }
+    /* Footer style */
+    #footer>nav>p {
+        font-size: 14px;
+    }
 }
