@@ -162,9 +162,9 @@ p#logo-title {
     display: block;
 }
 
-/* Small devices, 567 px and up */
+/* Small devices, 375 px and up */
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
     #naviToggle>ul>li>a {
         color: whitesmoke;
         font-size: 14px;
