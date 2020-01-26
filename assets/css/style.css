@@ -163,22 +163,26 @@ p#logo-title {
     display: block;
 }
 
-/* Small devices, 375 px and up */
+/* Extra small devices (portrait) */
 
-@media (max-width: 375px) {
+@media (max-width: 575.98px) {
     /* Navbar Styles */
     #naviToggle>ul>li>a {
         color: whitesmoke;
-        font-size: 14px;
-        padding-right: 8px;
+        font-size: 16px;
         display: block;
         margin-left: auto;
-        margin-right: auto;
-        text-decoration: underline;
+        margin-right: 14px;
+        /* border: 1px solid whitesmoke; */
+        /* border-radius: .3em; */
+        /* width: 80px;
+        height: 38px; */
+        text-align: center;
     }
     .navbar-nav {
         flex-direction: row;
-        padding-left: 2.5em;
+        padding-left: 38px;
+        padding-bottom: 4px;
     }
     /* Lead Styles */
     h1#logo-name {
@@ -314,28 +318,21 @@ p#logo-title {
     }
 }
 
-/* Medium devices - Portrait (tablets) */
+/* Small devices (landscape) */
 
-@media (min-width: 375px) and (max-width: 768px) {
-    body {
-        display: grid;
-        margin: 0;
-    }
-    /* Navbar Styles */
+@media (min-width: 376px) and (max-width: 812px) {
     #naviToggle>ul>li>a {
         color: whitesmoke;
-        font-size: 14px;
-        padding-right: 8px;
+        font-size: 18px;
         display: block;
         margin-left: auto;
-        margin-right: auto;
-        text-decoration: underline;
+        margin-right: 32px;
+        text-align: center;
     }
     .navbar-nav {
         flex-direction: row;
-        padding-left: 2.5em;
+        padding-left: 10.5em;
     }
-    /* Lead Styles */
     h1#logo-name {
         font-size: 4em;
         padding-top: .75em;
@@ -355,7 +352,6 @@ p#logo-title {
         height: 0;
         margin-bottom: 0;
     }
-    /* About Me Styles */
     #h1-about-me {
         font-size: 24px;
         margin-top: 5px;
@@ -391,7 +387,6 @@ p#logo-title {
     #about-me>div>div.col-xl-9>p:nth-child(4) {
         margin-bottom: 0;
     }
-    /* Project Styles */
     #projects>div {
         padding: 1rem 1rem;
         margin-bottom: 0;
@@ -416,7 +411,6 @@ p#logo-title {
         margin-top: 5px;
         padding-left: 3em;
     }
-    /* Team Project Styles */
     #team-project>div>div {
         margin-bottom: 0rem!important;
     }
@@ -443,7 +437,6 @@ p#logo-title {
     #team-project>div.jumbotron>div:nth-child(1) {
         margin-bottom: 1rem!important;
     }
-    /* Skills styles */
     #h1-skills {
         font-size: 24px;
         margin-top: 5px;
@@ -452,7 +445,6 @@ p#logo-title {
         margin-bottom: 10px;
         font-size: 20px;
     }
-    /* Contact Me */
     #contact-me>div {
         padding: 1rem 1rem;
     }
@@ -463,7 +455,6 @@ p#logo-title {
     #contact-me>div>form>div>label, #contact-me>div>div>button {
         font-size: 20px;
     }
-    /* Footer style */
     #footer>nav>p {
         font-size: 14px;
     }
@@ -471,30 +462,19 @@ p#logo-title {
 
 /* Medium devices - Landscape (tablets) */
 
-@media (max-width: 1024px) {
-    body {
-        display: grid;
-        margin: 0;
-    }
-    /* Navbar Styles */
+@media (min-width: 1024px) {
     #naviToggle>ul>li>a {
         color: whitesmoke;
         font-size: 18px;
-        padding-right: 8px;
         display: block;
         margin-left: auto;
-        margin-right: 5px;
-        border: 2px solid whitesmoke;
-        border-radius: 25px;
-        width: 130px;
-        height: 50px;
+        margin-right: 32px;
         text-align: center;
     }
     .navbar-nav {
         flex-direction: row;
         padding-left: 2.5em;
     }
-    /* Lead Styles */
     h1#logo-name {
         font-size: 4em;
         padding-top: .75em;
@@ -513,7 +493,6 @@ p#logo-title {
         height: 0;
         margin-bottom: 0;
     }
-    /* About Me Styles */
     #h1-about-me {
         font-size: 24px;
         margin-top: 5px;
@@ -549,7 +528,6 @@ p#logo-title {
     #about-me>div>div.col-xl-9>p:nth-child(4) {
         margin-bottom: 0;
     }
-    /* Project Styles */
     #projects>div {
         padding: 1rem 1rem;
         margin-bottom: 0;
@@ -574,7 +552,6 @@ p#logo-title {
         margin-top: 5px;
         padding-left: 3em;
     }
-    /* Team Project Styles */
     #team-project>div>div {
         margin-bottom: 0rem!important;
     }
@@ -601,7 +578,6 @@ p#logo-title {
     #team-project>div.jumbotron>div:nth-child(1) {
         margin-bottom: 1rem!important;
     }
-    /* Skills styles */
     #h1-skills {
         font-size: 24px;
         margin-top: 5px;
@@ -610,7 +586,6 @@ p#logo-title {
         margin-bottom: 10px;
         font-size: 20px;
     }
-    /* Contact Me */
     #contact-me>div {
         padding: 1rem 1rem;
     }
@@ -621,7 +596,6 @@ p#logo-title {
     #contact-me>div>form>div>label, #contact-me>div>div>button {
         font-size: 20px;
     }
-    /* Footer style */
     #footer>nav>p {
         font-size: 18px;
     }
