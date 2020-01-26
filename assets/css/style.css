@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
-    /* background: #343a40; */
-    background: whitesmoke;
+    background: #343a40;
+    /* background: whitesmoke; */
 }
 
 p, ul, #btn-group-1>button.btn.btn-light, #btn-group-2>button.btn.btn-light, label, button, a {
@@ -15,7 +15,7 @@ ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
 }
 
 #h1-about-me, #h1-project, #h1-team-project, #h1-skills, #h1-contactcd {
-    color: #343a40;
+    color: whitesmoke;
 }
 
 #naviToggle>ul>li>a {
@@ -169,15 +169,18 @@ p#logo-title {
         color: whitesmoke;
         font-size: 14px;
         padding-right: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         text-decoration: underline;
     }
     .navbar-nav {
         flex-direction: row;
-        padding-left: 4em;
+        padding-left: 2.5em;
     }
     h1#logo-name {
         font-size: 4em;
-        padding-top: .25em;
+        padding-top: .75em;
     }
     h2#logo-title {
         font-size: 1.5em;
@@ -192,6 +195,30 @@ p#logo-title {
     }
     #lead {
         height: 0;
+        margin-bottom: 0;
+    }
+    #bio-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about-me {
+        margin-bottom: 0;
+    }
+    #about-me>div>div.col-xl-9 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #col-about-me {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #about-me>div>div.col-xl-9>h4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+    #about-me>div>div.col-xl-9>p:nth-child(4) {
         margin-bottom: 0;
     }
 }
